@@ -1,0 +1,35 @@
+.header {
+    height: 55px;
+}
+.nombre{
+    padding-left: 5px;
+    color: white;
+    font-weight: bold;
+}
+.lupa{
+    padding-right: 5px;
+}
+.content{
+    height: auto;
+}
+.aside{
+    background: #BDBDBD;
+}
+.cotiza{
+    padding-top: 10px;
+}
+.footer{
+    height: 100px;
+}
+.precio{
+    color: red;
+    font-weight: bold;
+}
+.stock{
+    color:rgb(0, 189, 16);
+    font-weight: bold;
+    border-style: solid;
+    border-radius: 10%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
