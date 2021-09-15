@@ -4,9 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/estilos.css">
+    <title>Electricenter</title>
 </head>
 <body>
-    <h1>Hola mundo</h1>
+    <div class="container-fluid">
+        <div class="row header bg-dark">
+            <div class="col-4 logo d-flex align-items-center">
+                <img src="img/cpu.png" width="40px" height="40px">
+                <h2 class="nombre">ElectriCenter</h2>
+            </div>
+            <div class="col-5 botones d-flex align-items-center">
+                <div class="d-grid gap-2 d-md-block">
+                    <button class="btn btn-dark" type="button">Productos</button>
+                    <button class="btn btn-dark" type="button">Proveedores</button>
+                    <button class="btn btn-dark" type="button">Contactanos</button>
+                  </div>
+            </div>
+            <div class="col-3 perfil d-flex align-items-center">
+                <img src="img/lupa.png" width="30px" height="30px" class="lupa">
+                <input type="text" class="form-control" placeholder="Buscar..." aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+        </div>
+        <div class="row content">
+            <div class="col contenido">
+               <h4>Content</h4> 
+            </div>
+            <div class="col aside">
+                <h4>Aside</h4>
+            </div>
+        </div>
+        <div class="row footer">
+
+        </div>
+    </div>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
 </body>
 </html>
